@@ -1,30 +1,36 @@
-# Iris Flower Classification 🌸
+# 🌸 Iris Flower Classification using KNN
 
 This project is part of my virtual internship at **CODSOFT**.  
-The goal is to classify iris flowers into three species using machine learning (K-Nearest Neighbors).
+The goal is to classify iris flowers into three species using petal and sepal measurements, powered by the **K-Nearest Neighbors (KNN)** algorithm.
+
+---
 
 ## 📁 Task Overview
-- Use sepal and petal measurements to predict the flower species.
-- Dataset: [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-- Model Used: K-Nearest Neighbors (KNN)
+
+- ✅ Dataset: [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+- 📐 Features used: sepal length, sepal width, petal length, petal width
+- 🧠 Model: K-Nearest Neighbors (K=3)
+- 🎯 Goal: Predict the flower species: `setosa`, `versicolor`, or `virginica`
+
+---
 
 ## 🧠 What I Learned
-- How to load and explore data using `pandas`
-- How to visualize features with `seaborn`
-- How to train a basic ML model using `scikit-learn`
-- How to evaluate a model using accuracy, precision, and confusion matrix
 
-## 🛠️ Tools & Libraries
-- Python
-- Jupyter Notebook
-- pandas, seaborn, matplotlib
-- scikit-learn
+- Loading and exploring datasets with `pandas`
+- Creating visualizations using `seaborn` and `matplotlib`
+- Preprocessing and splitting data using `train_test_split`
+- Training and evaluating a basic machine learning model with `scikit-learn`
+- Interpreting performance with confusion matrix and classification report
+- ✨ Added custom input prediction to simulate real-world model usage
 
-## 📊 Model Accuracy
-- Final accuracy on test data: **~97%**
+---
 
-## 📷 Sample Visualization
-*(Add a screenshot here if you want)*
+## 📊 Model Performance
+
+- Final test accuracy: **~97%**
+- The model performs best in distinguishing **setosa**, while **versicolor** and **virginica** show slight overlap
+
+---
 
 ## 📌 How to Run
 1. Download the notebook
